@@ -7,4 +7,9 @@ import java.util.HashMap;
 /*This class manages conflicts */
 public class ManageConflicts {
     private HashMap<String, ArrayList<Integer>> usersAndConflicts = new HashMap();
+
+    public ManageConflicts(HashMap<String, ArrayList<Integer>> usersAndConflicts) {
+        this.usersAndConflicts = usersAndConflicts;
+    }
+
 }
