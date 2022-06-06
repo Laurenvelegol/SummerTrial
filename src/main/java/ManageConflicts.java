@@ -5,4 +5,9 @@ import java.util.HashMap;
 
 public class ManageConflicts {
     private HashMap<String, ArrayList<Integer>> usersAndConflicts = new HashMap();
+
+    public ManageConflicts(HashMap<String, ArrayList<Integer>> usersAndConflicts) {
+        this.usersAndConflicts = usersAndConflicts;
+    }
+
 }
